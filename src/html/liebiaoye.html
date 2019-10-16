@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表页</title>
+    <link rel="stylesheet" href="../css/liebiaoye.css">
+</head>
+<script src="../lab/jquery-1.10.1.min.js"></script>
+<script>
+    (function(){
+        window.onload = function() {
+           // "navcommon.html"加载这个公共的结构
+        }
+    })();
+</script>
+<body>
+    <div class="body" style="background-color: #ebebeb">
+        <header class="m-header">
+            <a href="" class="link" target="_blank" title="今日限时购">
+                <i class="icon"></i>
+                <span class="bigText">今日限时购</span>
+            </a>
+            <b class="smallText">本场还剩</b>
+            <span id="js_cd" class="bigText" lefttime="1952847">00:26:37</span>
+        </header>
+
+        <nav id="tabNav" class="m-nav f-cb" style="position: absolute; top: 100px;">
+            <div id="tabWrap" class="tabWrap f-cb">
+                <a href="" class="tab f-ing f-select" style="width: 180.5px" href="javascript:;">
+                    <b class="time">00:00&nbsp;<i>抢购中</i></b>
+                </a>
+
+                <a href="" class="tab f-soon" style="width: 180.5px" href="javascript:;">
+                    <b class="time">10:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+
+                <a href="" class="tab f-soon" style="width: 180.5px" href="javascript:;">
+                    <b class="time">13:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+
+                <a href="" class="tab f-soon" style="width: 180.5px" href="javascript:;">
+                    <b class="time">17:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+
+                <a href="" class="tab f-soon" style="width: 180.5px" href="javascript:;">
+                    <b class="time">21:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                
+                <a href="" class="tab f-tomorrow" style="width: 180.5px" href="javascript:;">
+                    <b class="time"><i class="iconfont"></i>明日预告</b>
+                </a>
+            </div>
+        </nav>
+
+        <!-- 价格排序 -->
+        <div class="QR-layout" id="main-nav-holder">
+            <nav class="sort-bar" id="main-nav">
+                <div class="pin"></div>
+                <div class="sort-bar-wrap top clearfix">
+                    <div class="nch-sortbar-array clearfix">
+                        <ul class="screen clearfix">
+                            <li class="selected"><a href="" title="默认排序">默认排序</a>
+                            </li>
+                            <li><a href="" title="点击按成交量从高到低排序">成交量</a>
+                            </li>
+                            <li>
+                                <a href="" id="sp11" class="asc">价格</a>
+                            </li>
+                            <li><a href="" title="点击按人气从高到低排序">评论</a>
+                            </li>
+                        </ul>
+                        <ul id="ul3">
+                            <li class="jiang">价格从高到低</li>
+                            <li class="sheng">价格从低到高</li>
+                        </ul>
+                    </div>
+                    <div class="nch-sortbar-price fold" id="nchSortbarPrice">
+                        <div class="block">
+                            <input type="text" class="input-text" placeholder="￥" id="priceStart" value="">
+                            <span class="line">-</span>
+                            <input type="text" class="input-text" placeholder="￥" id="priceEnd" value="">
+                            <a href="###" class="btn" id="nchSortbarPriceBtn">确定</a>
+                        </div>
+                    </div>
+                    <div class="nch-sortbar-since fold" id="minBuyNumPanel">
+                        <div class="block">
+                            <div class="fl m-r-5">关键字</div>
+                            <input type="text" class="input-text" id="minBuyNum" maxlength="8">
+                            <a href="###" class="btn" id="minBuyNumBtn">确定</a>
+                        </div>
+                    </div>
+                    <div class="nch-sortbar-filter">
+                        <div class="widget-label">
+                            <span class="widget-label-txt"> 经营类型 </span>
+                            <i class="widget-label-arrow"></i></div>
+                        <div class="widget-layer">
+                            <ul>
+                                <li><a href="">平台自营</a></li>
+                                <li><a href="">三方店铺</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nch-sortbar-filter">
+                        <div class="widget-label"><span class="widget-label-txt"> 促销活动 </span><i class="widget-label-arrow"></i>
+                        </div>
+                        <div class="widget-layer">
+                            <ul>
+                                <li><a href="">限时折扣</a></li>
+                                <li><a href="">全款预售</a></li>
+                                <li><a href="">定金预售</a></li>
+                                <li><a href="">秒杀活动</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="nch-sortbar-filter">
+                        <div class="widget-label"><span class="widget-label-txt"> 销售模式 </span><i class="widget-label-arrow"></i>
+                        </div>
+                        <div class="widget-layer">
+                            <ul>
+                                <li><a href="">零售型</a></li>
+                                <li><a href="">批发型</a></li>
+                                <li><a href="">虚拟型</a></li>
+                                <li><a href="">海外型</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="fold select-gift"> <span class=""><a class="gifts" href=""><i class="input-gift"></i>
+                                赠品</a></span> </div>
+                    <div class="fold select-gift"> <span class=""><a class="gifts" href=""><i class="input-gift"></i>
+                                包邮</a></span> </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- 商品渲染 -->
+        <article id="goodsList" class="m-goodslist lineOfFour">
+            <section class="goodsWrap f-cb">
+                <!-- 从数据库中渲染出来 -->
+                <div class="detailWrap f-cb">
+                    <a href="" title="【台版-控油清爽】SOFINA 苏菲娜 控油妆前隔离乳 SPF16 PA++ 25" target="_blank" class="pic">
+                        <img src="../img/4f5162c61a5b497283db3267f16472501557730157829jvm0be9d10491.jpg" alt="【台版-控油清爽】SOFINA 苏菲娜 控油妆前隔离乳 SPF16 PA++ 25" title="【台版-控油清爽】SOFINA 苏菲娜 控油妆前隔离乳 SPF16 PA++ 25" class="proImg img-lazyload img-lazyloaded">
+                        <span class="label-lb">包税|券每满299减50</span>
+                    </a>
+                    <div class="proinfo">
+                        <h3 class="tit">
+                            <a  title="【台版-控油清爽】SOFINA 苏菲娜 控油妆前隔离乳 SPF16 PA++ 25" href="" target="_blank" class="titLink">【台版-控油清爽】SOFINA 苏菲娜 控油妆前隔离乳 SPF16 PA++ 25</a>
+                            <a href="" target="_blank" title="实力对抗大油田" class="titLink intro"> 实力对抗大油田</a>   
+                        </h3>
+                        <div class="act f-cb">
+                            <span class="yen">¥</span>
+                            <b class="money">75</b>
+                            <span class="box-marketprice">
+                                <del class="marketprice">¥95</del>
+                            </span>  
+                            <a href="" target="_blank" class="btn">去抢购</a> 
+                        </div>
+                        <div class="dlprogress f-cb">
+                            <div class="barWrap">
+                                <div class="bar" style="width: 80%;"></div>
+                            </div>
+                            <div class="remain"><span class="txt-remain">已售80%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+    </div>
+</body>
+
+<script src="../lab/jquery-1.10.1.min.js"></script>
+<script>
+    (function() {
+        $.ajax({
+            type: 'get',
+            url: '../api/goodlist.php',
+            data: {
+                id: 'id',
+                url: 'url',
+                name: 'name',
+                dename: 'dename',
+                oldprice: "oldprice",
+                newprice: 'newprice',
+                satisficing: 'satisficing'
+            },
+            success: function(str) {
+                // console.log(str);
+                var att = JSON.parse(str);
+                var aa = ajaxgoodlist(att);
+                $('#goodsList .goodsWrap').html(aa);
+            }
+        });
+        // 渲染
+
+        function ajaxgoodlist(res) {
+            html = res.map(function (item) {
+                return`<div class="detailWrap f-cb data-id${item.id}">
+                    <a href="" title="${item.name}" class="pic">
+                        <img src="../img/${item.url}" alt="${item.name}" class="proImg img-lazyload img-lazyloaded">
+                        <span class="label-lb">${item.dename}</span>
+                    </a>
+                    <div class="proinfo">
+                        <h3 class="tit">
+                            <a  title="${item.name}" href="" target="_blank" class="titLink">${item.name}</a>
+                            <a href="" target="_blank" title="${item.dename}" class="titLink intro"> ${item.dename}</a>   
+                        </h3>
+                        <div class="act f-cb">
+                            <span class="yen">¥</span>
+                            <b class="money">${item.newprice}</b>
+                            <span class="box-marketprice">
+                                <del class="marketprice">¥${item.oldprice}</del>
+                            </span>  
+                            <a href="" target="_blank" class="btn">去抢购</a> 
+                        </div>
+                        <div class="dlprogress f-cb">
+                            <div class="barWrap">
+                                <div class="bar" style="width: ${item.satisficing}%;"></div>
+                            </div>
+                            <div class="remain"><span class="txt-remain">已售${item.satisficing}%</span></div>
+                        </div>
+                    </div>
+                </div>`;
+            }).join('');
+            return html
+        }
+    })();
+
+    (function () {
+       
+        $('.goodsWrap').click(function () {
+            window.open("xiangqingye.html");
+        })
+        //分页功能
+        $.ajax({
+            type: 'get',
+            url: '../api/getdata.php',
+            success: function(str) {
+                // console.log(str);
+                ajaxgoodlist();
+            }
+        })
+    })();
+</script>
+</html>

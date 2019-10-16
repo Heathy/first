@@ -1,0 +1,666 @@
+.body {
+    position: relative;
+}
+
+.m-header {
+    margin-bottom: 50px;
+    padding-top: 20px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    background: #fe0000 url(//haitao.nos.netease.com/cfcf3fad-ac23-4614-864b-edf7527c8210_1920_102.png?imageView&thumbnail=1920x0&quality=95) no-repeat center;
+}
+
+.m-header .link, .m-header .link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.m-header .icon {
+    display: inline-block;
+    margin-right: 10px;
+    width: 41px;
+    height: 38px;
+    vertical-align: -8px;
+    background: url(../img/baeb7c9f-6f0e-486d-8852-36365d38e171.png) no-repeat -138px 0;
+    
+}
+
+.m-header .bigText {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.m-header .smallText {
+    margin: 0 5px 0 18px;
+    font-size: 14px;
+}
+
+
+.m-nav {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 99;
+}
+
+.tabWrap {
+    margin: 0 auto;
+    width: 1090px;
+    height: 50px;
+}
+
+.f-cb, .clearfix {
+    zoom: 1;
+}
+
+.m-nav .f-select, .m-nav .f-select:hover {
+    position: relative;
+    height: 47px;
+    color: #fff;
+    border-bottom: 3px solid #fe0000;
+}
+
+.m-nav .f-ing {
+    background-color: #121212;
+}
+
+.m-nav .tab, .m-nav .tab:hover {
+    display: block;
+    float: left;
+    margin-left: -1px;
+    height: 50px;
+    line-height: 18px;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+    text-decoration: none;
+    text-align: center;
+}
+
+
+.m-nav .f-select .time {
+    color: #fff;
+}
+
+.m-nav .f-ing .time {
+    font-size: 18px;
+    color: #fff;
+}
+
+.m-nav .tab .time {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.m-nav .tab b {
+    display: block;
+}
+
+.m-nav .f-ing .time i {
+    display: block;
+    font-size: 14px;
+    color: #fe0000;
+    vertical-align: 1px;
+}
+
+
+address, caption, cite, code, dfn, em, th, var, i, b {
+    font-style: normal;
+    font-weight: 500;
+}
+
+.m-nav .tab, .m-nav .tab:hover {
+    display: block;
+    float: left;
+    margin-left: -1px;
+    height: 50px;
+    line-height: 18px;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+    text-decoration: none;
+    text-align: center;
+}
+
+.m-nav .tab .time {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.m-nav .tab b {
+    display: block;
+}
+
+ b {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+.m-nav .tab .status {
+    font-size: 12px;
+}
+
+.m-nav .tab b {
+    display: block;
+}
+
+.m-nav .f-tomorrow {
+    color: #aaa;
+}
+
+.m-nav .tab, .m-nav .tab:hover {
+    display: block;
+    float: left;
+    margin-left: -1px;
+    height: 50px;
+    line-height: 18px;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+    text-decoration: none;
+    text-align: center;
+}
+
+.m-nav .f-tomorrow .time {
+    margin-top: 14px;
+    height: 23px;
+    font-size: 16px;
+}
+
+.m-nav .tab b {
+    display: block;
+}
+
+.m-nav .f-tomorrow .time i {
+    margin-right: 8px;
+    font-size: 22px;
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.m-nav .f-started, .f-started:hover, .f-soon, .f-soon:hover, .f-ready, .f-ready:hover, .f-tomorrow, .f-tomorrow:hover {
+    color: #aaa;
+}
+
+.m-nav .f-tomorrow {
+    color: #aaa;
+}
+
+
+/* 商品列表 */
+.m-goodslist {
+    min-height: 1000px;
+}
+
+.lineOfFour {
+    margin: 0 auto;
+    padding: 12px 0;
+    width: 1090px;
+}
+
+.lineOfFour .goodsWrap {
+    margin-right: -14px;
+}
+
+.f-cb, .clearfix {
+    zoom: 1;
+}
+
+section {
+    margin: 0;
+    padding: 0;
+}
+
+.lineOfFour .detailWrap {
+    float: left;
+    position: relative;
+    *display: inline;
+    width: 262px;
+    margin: 0 14px 14px 0;
+    zoom: 1;
+    font-size: 12px;
+    background: #fff;
+}
+
+.lineOfFour .detailWrap .pic {
+    display: block;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+}
+
+.lineOfFour .detailWrap .pic, .detailWrap .pic:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lineOfFour .detailWrap .pic .proImg {
+    width: 262px;
+    height: 262px;
+}
+
+.img-lazyloaded {
+    background: #fff;
+}
+
+.m-goodslist .detailWrap .pic .label-lb {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    height: 20px;
+    padding: 0 10px;
+    border: 1px solid #f00;
+    color: #f00;
+    line-height: 20px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.85);
+}
+
+.lineOfFour .detailWrap .pic {
+    display: block;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+}
+
+.lineOfFour .detailWrap .proinfo {
+    position: relative;
+    padding: 5px 10px 7px;
+    background: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+
+.lineOfFour .detailWrap .tit {
+    margin-top: 4px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.lineOfFour .detailWrap .tit a, .detailWrap .tit a:hover {
+    color: #333;
+}
+
+.detailWrap .tit .titLink {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+a {
+    text-decoration: none;
+}
+
+.lineOfFour .detailWrap .tit .intro, .detailWrap .tit .intro:hover {
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.detailWrap .tit .titLink {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.act {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+}
+
+.act .yen {
+    font-size: 14px;
+    color: #f00;
+}
+
+.act .money {
+    font-size: 26px;
+    margin: 0 4px;
+    color: #f00;
+}
+
+.act .box-marketprice {
+    font-size: 12px;
+    color: #999;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+.act .btn {
+    display: inline-block;
+    width: 72px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #f00;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #f00;
+    -webkit-align-self: center;
+    align-self: center;
+}
+
+.m-goodslist .dlprogress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 34px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.m-goodslist .dlprogress .barWrap {
+    position: relative;
+    width: 190px;
+    height: 12px;
+    border: 1px solid #f00;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.m-goodslist .dlprogress .barWrap .bar {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.7;
+    background-image: -webkit-gradient(linear,left top, right top,from(#f00),to(#ff3264));
+    background-image: -webkit-linear-gradient(left,#f00 0%,#ff3264 100%);
+    background-image: linear-gradient(90deg,#f00 0%,#ff3264 100%);
+    border-radius: 6px;
+}
+
+.m-goodslist .dlprogress .remain {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    color: #f00;
+    height: 14px;
+    position: relative;
+}
+
+.m-goodslist .dlprogress .txt-remain {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 4px;
+    -webkit-transform: scale(0.5) translate(-50%,-50%);
+    transform: scale(0.5) translate(-50%,-50%);
+    white-space: nowrap;
+}
+
+/* 价格排序 */
+ .QR-layout {
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+ .QR-layout .sort-bar {
+  display: inline-block;
+  width: 1210px;
+  margin: 0 auto;
+  border-top: solid 1px #DDD;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap {
+  position: relative;
+  z-index: 2;
+  zoom: 1;
+  height: 37px;
+  font-size: 12px;
+  border-bottom: 1px solid #E7E3E7;
+  background: #F1F1F1;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap .nch-sortbar-array {
+  width: 208px;
+  display: block;
+  float: left;
+  margin: 6px 13px 6px 0;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap .nch-sortbar-array .screen li {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-left: -1px;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap .nch-sortbar-array .screen li a {
+  display: block;
+  height: 23px;
+  padding: 0 9px;
+  border: solid 1px #CCC;
+  background-color: #FFF;
+  font-size: 12px;
+  line-height: 23px;
+  color: #333;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap .nch-sortbar-array #ul3 {
+  display: none;
+  border: 1px solid #555;
+  margin-left: 98px;
+  font-size: 12px;
+  width: 100px;
+  height: 40px;
+}
+
+ .QR-layout .sort-bar .sort-bar-wrap .screen .selected a {
+  border-color: #f30213;
+  background-color: #f30213;
+  color: #FFF;
+}
+
+ .QR-layout .sort-bar .fold {
+  display: block;
+  float: left;
+  height: 25px;
+  padding: 6px 14px;
+  margin: 0;
+  line-height: 25px;
+  color: #888;
+  overflow: hidden;
+}
+
+ .QR-layout .sort-bar .fold .block {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.QR-layout .sort-bar .nch-sortbar-price .fold {
+  width: 130px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-price .input-text {
+  width: 53px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-price .block {
+  width: 188px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-since .fold {
+  width: 116px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-since .block {
+  width: 174px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-since .input-text {
+  width: 40px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-since .fl {
+  float: left !important;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-since .m-r-5 {
+  margin-right: 5px !important;
+}
+
+.QR-layout .sort-bar .nch-sortbar-since .m-l-5 {
+  margin-left: 5px !important;
+}
+
+ .QR-layout .sort-bar .input-text {
+  float: left;
+  height: 23px;
+  padding: 0 2px;
+  text-align: left;
+  border: solid 1px #CCC;
+  font-family: Verdana;
+  color: #AAA;
+  line-height: 23px;
+  transition: .2s ease-in-out;
+}
+
+ .QR-layout .sort-bar .line {
+  float: left;
+  width: 12px;
+  height: 25px;
+}
+
+ .QR-layout .sort-bar .btn {
+  float: left;
+  height: 20px;
+  padding: 1px 9px 3px 9px;
+  margin-left: 14px;
+  border: solid 1px #f30213;
+  border-radius: 0;
+  background-color: #FFF;
+  font-size: 12px !important;
+  line-height: 20px;
+  color: #f30213;
+  transition: .2s ease-in-out;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter {
+  position: relative;
+  z-index: 1;
+  display: block;
+  float: left;
+  width: 98px;
+  height: 25px;
+  padding: 6px 0;
+  border: solid #E7E7E7;
+  border-width: 0 1px;
+  margin-left: -1px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-label {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 25px;
+  padding: 6px 14px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-label .widget-label-txt {
+  display: block;
+  float: left;
+  color: #888;
+  line-height: 25px;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-label .widget-label-arrow {
+  display: block;
+  float: left;
+  width: 13px;
+  height: 7px;
+  background: url(../img/search.ele.png) no-repeat 0 0;
+  margin: 9px 0 0 7px;
+  transition: .2s ease-in-out;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-layer {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  top: 37px;
+  left: -1px;
+  right: -1px;
+  border: solid #E7E7E7;
+  border-width: 0 1px 1px 1px;
+  background-color: #FFF;
+}
+
+.QR-layout .sort-bar .nch-sortbar-filter .widget-layer ul {
+  display: block;
+  overflow: hidden;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-layer ul li {
+  display: block;
+  clear: both;
+}
+
+ .QR-layout .sort-bar .nch-sortbar-filter .widget-layer ul li span {
+  display: block;
+  height: 20px;
+  padding: 6px 14px;
+  text-align: left;
+  color: #888;
+}
+
+ .QR-layout .sort-bar .select-gift {
+  text-align: left;
+}
+
+ .QR-layout .sort-bar .select-gift span {
+  display: block;
+  cursor: pointer;
+}
+
+.QR-layout .sort-bar .select-gift span .gifts {
+  color: #888;
+}
+
+ .QR-layout .sort-bar .select-gift span .gifts .input-gift {
+  background: #fff url(../img/right.png) no-repeat 999px 999px;
+  cursor: pointer;
+  vertical-align: middle;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #e4e4e4;
+  margin-right: 5px;
+  display: inline-block;
+}
