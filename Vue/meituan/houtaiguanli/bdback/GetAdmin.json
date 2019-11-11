@@ -1,0 +1,19 @@
+{
+  "Status": 1,
+  "Result": {
+    "data": [{
+      "ID": "cf07685e-7a47-e711-9d25-00e070110b98",
+      "Name": "test",
+      "IsLock": false,
+      "Role": "平台管理员",
+      "CreateTime": "2019-11-14T15:06:02.3361147"
+    }, {
+      "ID": "03a40c61-835b-e811-86f5-cad0d61b6f66",
+      "Name": "admin",
+      "IsLock": false,
+      "Role": "平台管理员",
+      "CreateTime": "2019-11-14T15:06:02.3361147"
+    }],
+    "PageIndex": 4
+  }
+}

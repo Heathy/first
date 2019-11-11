@@ -1,0 +1,21 @@
+{
+  "name": "express-project",
+  "version": "1.0.0",
+  "description": "express测试项目",
+  "main": "index.js",
+  "scripts": {
+    "test": "run text"
+  },
+  "repository": {
+    "type": "git",
+    "url": "first"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "heathy",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
+}

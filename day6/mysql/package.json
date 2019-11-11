@@ -1,0 +1,21 @@
+{
+  "name": "mysql",
+  "version": "1.0.0",
+  "description": "mysql",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "first"
+  },
+  "keywords": [
+    "mysql"
+  ],
+  "author": "heathy",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.17.1"
+  }
+}
